@@ -49,7 +49,7 @@ Some style guides:
 - [JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 - [TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
 
-### Complexity {#Complexity}
+### Complexity
 
 Good code is simple and efficient, it can be understood quickly by code readers, and easy to use when other developers come across it in the future. Avoid over-engineering, means the code should not be made more generic than it needs to be, or added unnecessary functions.
 
