@@ -34,7 +34,7 @@ Make sure
 - Comments are clear, useful and explaining why instead of what.
 - TODO:
 
-## Best practices in code writing {#Best-practices-in-code-writing}
+## Best practices in code writing
 
 ### Clarity
 
