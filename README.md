@@ -2,7 +2,7 @@
 
 #### Working on a feature or issue branch
 
-create a separate branch for the new feature or issue. Update, add, commit, and push changes in that branch.
+Create a separate branch for the new feature or issue. Update, add, commit, and push changes in that branch.
 
 ## Start a pull request (PR)
 
@@ -12,34 +12,34 @@ Once you finish the work in the dedicated branch, you are ready to make a PR to 
 
 ### 1. Click on `Compare & pull request` or `Create pull request`
 
-##### In your repository:
+#### In your repository
 
 The `Compare & pull request` button will appear in GitHub repository after you push any changes. Click on that button will navigate to allow you to open a PR.
 
 <img src="./images/web-page-pull-request.png" width="700px"/>
 
-##### Pull requests page:
+If you can't find the `Compare & pull request` button show up in your repository you can create PR in [pull requests section](#pull-requests-section).
 
-Navigate to `Pull requests` page
+#### Pull requests section
+
+Navigate to `Pull requests` section **in your repository**.
 
 <img src="./images/navbar.png" width="400px"/>
 <br/>
 
-Click `New pull request`
+Click `New pull request` button.
 
 <img src="./images/new-pull-rquest-btn.png" width="500px"/>
 
-##### Github desktop:
+#### Github desktop
 
-Click `Create pull request`
+Click `Create pull request` button.
 
 <img src="./images/desktop-pull-request.png" width="600px"/>
 
-If you can't find the `Compare & pull request` show up in your repository, you can go to
-
 ### 2. Select your PR base branch and compare branch
 
-If you navigate through `Compare & pull request` button, it should automatically set the correct branches.
+If you navigate through `Compare & pull request` button, it should automatically set the base branch to main and compare branch as the branch that has the most recent changes.
 
 <img src="./images/base-compare.png" width="700px"/>
 
@@ -58,14 +58,16 @@ You can also toggle to see a preview of the description.
 
 <img src="./images/pullrequest-description-preview.png" width="800px"/>
 
-### 4. Assign reviewer
+### 4. Request reviewers
 
-TODO
+Go to `Reviewers` and select users from the list to review your PR.
 
-### 5. Create pull request
+### 5. Submit pull request
 
-TODO
+Before submitting this PR, ensure that you have reviewed all of your changes, then click on `Create pull request`.
 
-### 6. Submit pull request
+### 6. Sit tide and wait for your PR review to be completed.
 
-Click on `Create pull request`, make sure you have reviewed all your changes before creating pull request.
+[Code Review guide](./code-review-guide.md)
+
+### 7. merge requests
