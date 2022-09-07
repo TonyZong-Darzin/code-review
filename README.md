@@ -6,7 +6,7 @@ Create a separate branch for the new feature or issue. Update, add, commit, and 
 
 ## Start a pull request (PR)
 
-Once you finish the work in the dedicated branch, you are ready to make a PR to the main branch.
+Once you finish the work in the dedicated branch, you are ready to make a PR to the target main branch.
 
 <img src="./images/PR_review_process.png" width="500px"/>
 
@@ -14,7 +14,7 @@ Once you finish the work in the dedicated branch, you are ready to make a PR to 
 
 #### In your repository
 
-The `Compare & pull request` button will appear in GitHub repository after you push any changes. Click on that button will navigate to allow you to open a PR.
+The `Compare & pull request` button will appear in your repository after you push any changes. Check the branch in that message box to ensure it is the one for which you want to create a PR, and then click the button.
 
 <img src="./images/web-page-pull-request.png" width="700px"/>
 
@@ -44,6 +44,7 @@ If you navigate through `Compare & pull request` button, it should automatically
 <img src="./images/base-compare.png" width="700px"/>
 
 **base:** the branch where you want to merge your changes into.
+
 **compare:** the topic branch where you made your changes.
 
 ### 3. Write your PR title and description
@@ -56,18 +57,20 @@ The [PR template](./pull-request-template.md) will automatically apply to the de
 
 You can also toggle to see a preview of the description.
 
-<img src="./images/pullrequest-description-preview.png" width="800px"/>
+<img src="./images/pullrequest-description-preview.png" width="1000px"/>
 
 ### 4. Request reviewers
 
 Go to `Reviewers` and select users from the list to review your PR.
 
-### 5. Submit pull request
+<img src="./images/select-reviewer.png" width="800px"/>
+
+### 5. Submit PR
 
 Before submitting this PR, ensure that you have reviewed all of your changes, then click on `Create pull request`.
 
 ### 6. Sit tide and wait for your PR review to be completed.
 
-[Code Review guide](./code-review-guide.md)
+[Code review guide](./code-review-guide.md)
 
-### 7. merge requests
+### 7. Merge PR
