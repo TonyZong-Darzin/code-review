@@ -46,7 +46,7 @@ If you navigate through `Compare & pull request` button, it should automatically
 **base:** the branch where you want to merge your changes into.
 **compare:** the topic branch where you made your changes.
 
-### 2. Write your PR title and description
+### 3. Write your PR title and description
 
 Description accepts [Markdown syntax](https://www.markdownguide.org/basic-syntax/).
 
@@ -54,10 +54,16 @@ The [PR template](./pull-request-template.md) will automatically apply to the de
 
 <img src="./images/pullrequest-description.png" width="800px"/>
 
-You can also toggle to preview the description.
+You can also toggle to view a preview of the description.
 
 <img src="./images/pullrequest-description-preview.png" width="800px"/>
 
-### 3. Create pull request
+### 4. Create pull request
 
-Click on `Create pull request`, review all your changes before creating pull request.
+Pull request
+
+### 5. Create pull request
+
+### 6. Submit pull request
+
+Click on `Create pull request`, make sure you have reviewed all your changes before creating pull request.

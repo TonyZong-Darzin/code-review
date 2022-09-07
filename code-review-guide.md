@@ -2,8 +2,6 @@
 
 ## Why code review
 
-Google does that, so are we...
-
 It helps developers discover bugs earlier, learn the code base, improve coding performance, share new technologies and techniques with each other, making source code readable by anyone who might be introduced to the project at any given time during development.
 
 For younger developers, the code review process provides an opportunity for younger developers to acquire optimization techniques and boost the performance of their code from other experienced developers. Additionally, it gives a chance to hone their skills and become experts in their craft.
