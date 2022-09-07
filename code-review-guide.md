@@ -32,7 +32,7 @@ Make sure
 
 - Naming are clear and follow the naming convention.
 - Comments are clear, useful and explaining why instead of what.
-- TODO
+- TODO:
 
 ## Best practices in code writing
 
