@@ -69,8 +69,12 @@ Go to `Reviewers` and select users from the list to review your PR.
 
 Before submitting this PR, ensure that you have reviewed all of your changes, then click on `Create pull request`.
 
-### 6. Sit tide and wait for your PR review to be completed.
+### 6. Sit tight and wait for your PR reviewers to complete their review of your masterpiece.
+
+Better start working on new tasks now
 
 [Code review guide](./code-review-guide.md)
 
 ### 7. Merge PR
+
+Fix conflicts and Ship
