@@ -17,4 +17,4 @@ Before submitting this PR, please make sure:
 
 ## What's next?
 
-After you submit this PR, you must wait for reviewers to complete their reviewing before you can begin merging the PR.
+After you submit this PR, you have to wait for reviewers to complete their reviewing before you can begin merging the PR.

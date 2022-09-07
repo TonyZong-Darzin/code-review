@@ -54,15 +54,17 @@ The [PR template](./pull-request-template.md) will automatically apply to the de
 
 <img src="./images/pullrequest-description.png" width="800px"/>
 
-You can also toggle to view a preview of the description.
+You can also toggle to see a preview of the description.
 
 <img src="./images/pullrequest-description-preview.png" width="800px"/>
 
-### 4. Create pull request
+### 4. Assign reviewer
 
-Pull request
+TODO
 
 ### 5. Create pull request
+
+TODO
 
 ### 6. Submit pull request
 
