@@ -1,6 +1,6 @@
 ## Task
 
-Replace with the Asana Task title.
+Replace with the Asana task title.
 
 ## Solution description
 
