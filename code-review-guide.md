@@ -22,6 +22,10 @@ In most circumstances, reviewers should examine each line of code that has been 
 
 When the reviewer's reviewing pace is slowed by difficult-to-read code, the authors must provide clarification. Also, if a reviewer does not feel qualified to conduct any aspect of the review, make sure there is at least one qualified reviewer, especially for complicated topics like privacy, security, concurrency, accessibility, internationalisation.
 
+### Tests
+
+TODO
+
 ### Compliment & Mentoring
 
 It is sometimes more helpful to encourage and appreciate good coding practises than to point out errors. Code review gives developers the opportunity to learn new things from others; in the long run, developers sharing information with one another is part of enhancing a system's code health.
@@ -32,7 +36,9 @@ Make sure
 
 - Naming are clear and follow the naming convention.
 - Comments are clear, useful and explaining why instead of what.
-- TODO:
+- The code isn’t more complex than it needs to be.
+- Code has well-designed unit tests.
+- TODO
 
 ## Best practices in code writing
 
@@ -61,9 +67,9 @@ An useful comment explains why the code exists rather than what the code is doin
 
 ### Reusability and Scalability
 
-Avoid hard coding and developing duplicated code for similar functions, instead developers should analyze the conditions and requirements, refactor the code into reuseable functions ([Complexity](#Complexity) also needs to be considered).
+Avoid developing duplicated code for similar functions, instead developers should analyze the conditions and requirements, refactor the code into reuseable functions ([Complexity](#Complexity) also needs to be considered).
 
-Code can be easily extended and adapted as it won't be discarded when new requirements emerge.
+Code should be easily extended and adapted as it won't be discarded when new requirements emerge.
 
 ## Reference
 
