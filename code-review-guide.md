@@ -57,7 +57,7 @@ Good code is simple and efficient, easy to understand by code readers, and easy 
 
 It is recommended to write comments for code in clear, useful and understandable English.
 
-An useful comment explains why the code exists rather than what the code is doing (unless for regular expressions or sophisticated algorithms, which benefit from comments explaining what they do), such as the purpose of a piece of code, how it should be used, and how it behaves when used.
+An useful comment explains why the code exists rather than what the code is doing (Unless it's a regular expression or a complex algorithm, in which case comments clarifying what they do are useful), such as the purpose of a piece of code, how it should be used, and how it behaves when used.
 
 ### Reusability and Scalability
 
