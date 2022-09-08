@@ -4,7 +4,7 @@
 
 It assists developers in discovering bugs earlier, learning the code base, improving coding performance, sharing new technologies and techniques with one another, and making source code readable by anyone who may be introduced to the project at any time during development.
 
-For younger developers, the code review process allows them to learn optimisation techniques and improve the performance of their code from more experienced developers. It also gives them a chance to hone their skills and become experts in their field.
+For junior developer, the code review process allows them to learn optimisation techniques and improve the performance of their code from more experienced developers. It also gives them a chance to hone their skills and become experts in their field.
 
 ## How to review code
 
