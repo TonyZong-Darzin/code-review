@@ -20,18 +20,18 @@ The `Compare & pull request` button will appear in your repository after you pus
 
 If you can't find the `Compare & pull request` button show up in your repository you can create PR in [pull requests section](#pull-requests-section).
 
-#### Pull requests section
+#### In `Pull requests` section
 
 Navigate to `Pull requests` section **in your repository**.
 
-<img src="./images/navbar.png" width="400px"/>
+<img src="./images/pull-request-in-navbar.png" width="400px"/>
 <br/>
 
 Click `New pull request` button.
 
 <img src="./images/new-pull-rquest-btn.png" width="500px"/>
 
-#### Github desktop
+#### On Github desktop
 
 Click `Create pull request` button.
 
@@ -53,28 +53,42 @@ Description accepts [Markdown syntax](https://www.markdownguide.org/basic-syntax
 
 The [PR template](./pull-request-template.md) will automatically apply to the description when the PR is created. Fill in the Task title, Solution description, and Checklist.
 
-<img src="./images/pullrequest-description.png" width="800px"/>
+<img src="./images/pull-request-description.png" width="800px"/>
 
 You can also toggle to see a preview of the description.
 
-<img src="./images/pullrequest-description-preview.png" width="1000px"/>
+<img src="./images/pull-request-description-preview.png" width="800px"/>
 
-### 4. Request reviewers
-
-Go to `Reviewers` and select users from the list to review your PR.
-
-<img src="./images/select-reviewer.png" width="800px"/>
-
-### 5. Submit PR
+### 4. Submit PR
 
 Before submitting this PR, ensure that you have reviewed all of your changes, then click on `Create pull request`.
 
-### 6. Sit tight and wait for your PR reviewers to complete their review of your masterpiece.
+### 5. Request reviewers
 
-Better start working on new tasks now
+Go to `Reviewers` and select users from the list to review your PR.
 
-[Code review guide](./code-review-guide.md)
+<img src="./images/select-reviewer.png" width="820px"/>
 
-### 7. Merge PR
+### 6. Resolve conflicts
 
-Fix conflicts and Ship
+Click on `Create pull request` and resolve the conflicts.
+
+<img src="./images/conflict-files.png" width="800px"/>
+
+### 7. Wait for the PR review to be completed
+
+Review required
+
+<img src="./images/wait-reviews.png" width="800px"/>
+
+Changes approved
+
+<img src="./images/review-complete.png" width="800px"/>
+
+[See code review guide](./code-review-guide.md)
+
+### 8. Merge PR
+
+Create a merge commit and merge PR.
+
+<img src="./images/mergePR.png" width="700px"/>

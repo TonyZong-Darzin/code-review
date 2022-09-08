@@ -1,15 +1,20 @@
 ## Task
 
-Replace with the Asana task title.
+Replace with the Asana task title ...
 
 ## Solution description
 
-Describe your code changes.
+Describe your code changes ...
 
 ## Checklist
 
 Before submitting this PR, please make sure:
 
-- [x] The changes follows the specification guidelines.
-- [x] The code builds clean without any errors or warnings.
-- [x] You have performed a self-review.
+- [ ] You have selected reviewers for reviewing you code.
+- [ ] The changes follows the specification guidelines.
+- [ ] The code builds clean without any errors or warnings.
+- [ ] You have performed a self-review.
+
+## What's next?
+
+After you submit this PR, you have to wait for reviewers to complete their reviewing before you can begin merging the PR.
