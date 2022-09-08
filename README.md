@@ -6,7 +6,7 @@ Create a separate branch for the new feature or issue. Update, add, commit, and 
 
 ## Start a pull request (PR)
 
-Once you finish the work in the dedicated branch, you are ready to make a PR to the target main branch.
+Once you finish the work in the dedicated branch, you are ready to make a PR to the target (main) branch.
 
 <img src="./images/PR_review_process.png" width="500px"/>
 
