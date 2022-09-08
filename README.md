@@ -1,4 +1,4 @@
-# Workflow for pull requests on Github !
+# Workflow for pull requests on Github
 
 #### Working on a feature or issue branch
 
@@ -78,3 +78,4 @@ Better start working on new tasks now
 ### 7. Merge PR
 
 Fix conflicts and Ship
+
