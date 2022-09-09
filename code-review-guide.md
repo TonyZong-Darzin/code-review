@@ -6,11 +6,40 @@ It assists developers in discovering bugs earlier, learning the code base, impro
 
 For junior developer, the code review process allows them to learn optimisation techniques and improve the performance of their code from more experienced developers. It also gives them a chance to hone their skills and become experts in their field.
 
-## How to review code
+## How to review code in PR
+
+When someone request a review form you, you will receive an e-mail and Github notification that you can start the review there.
+
+### Start the reviewing
+
+In PR page, click on `Add your review` button in message bo OR click on `Files changed`in tab bar.
+
+<img src="./images/add-review.png" width="800px"/>
+
+### Add single comment or start a review
+
+You can start the review by adding inline comments in the files changed view
+of PR, you can choose to leave single comments or start a review.
+
+<img src="./images/add-review-comment.png" width="630px"/>
+
+When you start a review, all of the inline comments will be marked as pending.
+
+<img src="./images/add-review-comment-pending.png" width="540px"/>
+
+### Share a review
+
+When you are ready to share the review, click the `Review changes` button and leave a summary of the review, then select to `Approve`, `Request change`, or simply leave general `Comment` without explicit approval.
+
+<img src="./images/share-review.png" width="700px"/>
 
 TODO:
 
 [Video explains how to do code review on Github](https://www.youtube.com/watch?v=HW0RPaJqm4g)
+
+### Review again
+
+TODO:
 
 ## What to look for in Code Review
 
@@ -36,7 +65,7 @@ When the reviewer's reviewing pace is slowed by difficult-to-read code, the auth
 
 ### Tests
 
-Check that the tests in the CL are correct, reasonable, and applicable ([See guide](#tests-1)).
+Check that the tests in the CL are correct, reasonable, and applicable ([See guide](#testing)).
 
 ### Compliment & Mentoring
 
@@ -49,8 +78,6 @@ ESLint will check the code style of code in Visual Studio Code, fix warnings and
 ### Clarity
 
 Follow consistent code style and naming conventions applicable to the language.
-
-Eslint
 
 - [How to write clean code](./Clean_Code.pdf)
 
@@ -71,7 +98,7 @@ It is recommended to write comments for code in clear, useful and understandable
 
 An useful comment explains why the code exists rather than what the code is doing (Unless it's a regular expression or a complex algorithm, in which case comments clarifying what they do are useful), such as the purpose of a piece of code, how it should be used, and how it behaves when used.
 
-### Tests
+### Testing
 
 Ensure the tests actually fail when the code is broken, and producing false positives if the code underlying them changes. Each test capable of producing straightforward and relevant assertions. Also tests should properly divided into distinct test methods.
 

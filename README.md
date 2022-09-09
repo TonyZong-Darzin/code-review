@@ -20,9 +20,9 @@ The `Compare & pull request` button will appear in your repository after you pus
 
 If you can't find the `Compare & pull request` button show up in your repository you can create PR in [pull requests section](#pull-requests-section).
 
-#### In `Pull requests` section
+#### In `Pull requests` tab
 
-Navigate to `Pull requests` section **in your repository**.
+Navigate to `Pull requests` tab **in your repository**.
 
 <img src="./images/pull-request-in-navbar.png" width="400px"/>
 <br/>
@@ -65,7 +65,7 @@ Before submitting this PR, ensure that you have reviewed all of your changes, th
 
 ### 5. Request reviewers
 
-Go to `Reviewers` and select users from the list to review your PR.
+Go to `Reviewers` and select users from the list to review your PR. Note that you must have at least one approving review in order to proceed merging the PR.
 
 <img src="./images/select-reviewer.png" width="820px"/>
 
@@ -83,11 +83,17 @@ Review required
 
 Changes approved
 
-<img src="./images/review-complete.png" width="800px"/>
+<img src="./images/review-complete.png" width="795px"/>
 
 [See code review guide](./code-review-guide.md)
 
-### 8. Merge PR
+### 8. Made changes based on code reviews
+
+<img src="./images/review-not-complete.png" width="800px"/>
+
+TODO:
+
+### 9. Merge PR
 
 Create a merge commit and merge PR.
 
