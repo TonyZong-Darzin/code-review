@@ -13,6 +13,7 @@ Before submitting this PR, please make sure:
 - [ ] You have selected reviewers for reviewing you code.
 - [ ] The changes follows the specification guidelines.
 - [ ] The code builds clean without any errors or warnings.
+- [ ] You have added unit tests
 - [ ] You have performed a self-review.
 
 ## What's next?
