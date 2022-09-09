@@ -37,6 +37,10 @@ TODO:
 
 [Video explains how to do code review on Github](https://www.youtube.com/watch?v=HW0RPaJqm4g)
 
+### Review again
+
+TODO:
+
 ## What to look for in Code Review
 
 ### In General
@@ -74,8 +78,6 @@ ESLint will check the code style of code in Visual Studio Code, fix warnings and
 ### Clarity
 
 Follow consistent code style and naming conventions applicable to the language.
-
-Eslint
 
 - [How to write clean code](./Clean_Code.pdf)
 

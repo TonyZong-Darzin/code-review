@@ -87,7 +87,13 @@ Changes approved
 
 [See code review guide](./code-review-guide.md)
 
-### 8. Merge PR
+### 8. Made changes based on code reviews
+
+<img src="./images/review-not-complete.png" width="800px"/>
+
+TODO:
+
+### 9. Merge PR
 
 Create a merge commit and merge PR.
 
