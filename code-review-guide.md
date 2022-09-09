@@ -6,7 +6,7 @@ It assists developers in discovering bugs earlier, learning the code base, impro
 
 For junior developer, the code review process allows them to learn optimisation techniques and improve the performance of their code from more experienced developers. It also gives them a chance to hone their skills and become experts in their field.
 
-## How to review code
+## How to review code in PR
 
 TODO:
 
@@ -36,7 +36,7 @@ When the reviewer's reviewing pace is slowed by difficult-to-read code, the auth
 
 ### Tests
 
-Check that the tests in the CL are correct, reasonable, and applicable ([See guide](#tests-1)).
+Check that the tests in the CL are correct, reasonable, and applicable ([See guide](#testing)).
 
 ### Compliment & Mentoring
 
@@ -71,7 +71,7 @@ It is recommended to write comments for code in clear, useful and understandable
 
 An useful comment explains why the code exists rather than what the code is doing (Unless it's a regular expression or a complex algorithm, in which case comments clarifying what they do are useful), such as the purpose of a piece of code, how it should be used, and how it behaves when used.
 
-### Tests
+### Testing
 
 Ensure the tests actually fail when the code is broken, and producing false positives if the code underlying them changes. Each test capable of producing straightforward and relevant assertions. Also tests should properly divided into distinct test methods.
 

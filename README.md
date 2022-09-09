@@ -65,7 +65,7 @@ Before submitting this PR, ensure that you have reviewed all of your changes, th
 
 ### 5. Request reviewers
 
-Go to `Reviewers` and select users from the list to review your PR.
+Go to `Reviewers` and select users from the list to review your PR. Note that you must have at least one approving review in order to proceed merging the PR.
 
 <img src="./images/select-reviewer.png" width="820px"/>
 
@@ -83,7 +83,7 @@ Review required
 
 Changes approved
 
-<img src="./images/review-complete.png" width="800px"/>
+<img src="./images/review-complete.png" width="795px"/>
 
 [See code review guide](./code-review-guide.md)
 
