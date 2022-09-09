@@ -8,6 +8,31 @@ For junior developer, the code review process allows them to learn optimisation 
 
 ## How to review code in PR
 
+When someone request a review form you, you will receive an e-mail and Github notification that you can start the review there.
+
+### Start the reviewing
+
+In PR page, click on `Add your review` button in message bo OR click on `Files changed`in tab bar.
+
+<img src="./images/add-review.png" width="800px"/>
+
+### Add single comment or start a review
+
+You can start the review by adding inline comments in the files changed view
+of PR, you can choose to leave single comments or start a review.
+
+<img src="./images/add-review-comment.png" width="630px"/>
+
+When you start a review, all of the inline comments will be marked as pending.
+
+<img src="./images/add-review-comment-pending.png" width="540px"/>
+
+### Share a review
+
+When you are ready to share the review, click the `Review changes` button and leave a summary of the review, then select to `Approve`, `Request change`, or simply leave general `Comment` without explicit approval.
+
+<img src="./images/share-review.png" width="700px"/>
+
 TODO:
 
 [Video explains how to do code review on Github](https://www.youtube.com/watch?v=HW0RPaJqm4g)

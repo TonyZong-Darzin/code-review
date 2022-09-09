@@ -20,9 +20,9 @@ The `Compare & pull request` button will appear in your repository after you pus
 
 If you can't find the `Compare & pull request` button show up in your repository you can create PR in [pull requests section](#pull-requests-section).
 
-#### In `Pull requests` section
+#### In `Pull requests` tab
 
-Navigate to `Pull requests` section **in your repository**.
+Navigate to `Pull requests` tab **in your repository**.
 
 <img src="./images/pull-request-in-navbar.png" width="400px"/>
 <br/>
