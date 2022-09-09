@@ -10,7 +10,19 @@ For junior developer, the code review process allows them to learn optimisation 
 
 TODO:
 
+[Video explains how to do code review on Github](https://www.youtube.com/watch?v=HW0RPaJqm4g)
+
 ## What to look for in Code Review
+
+### In General
+
+> **Make sure**
+>
+> - **Naming are clear and follow the naming convention.**
+> - **The code adheres to our [style guidelines](#some-style-guides).**
+> - **Comments are clear, useful and explaining why instead of what.**
+> - **Code has well-designed unit tests.**
+> - **The code isn’t more complex than it needs to be.**
 
 ### Code health
 
@@ -24,36 +36,30 @@ When the reviewer's reviewing pace is slowed by difficult-to-read code, the auth
 
 ### Tests
 
-TODO
+Check that the tests in the CL are correct, reasonable, and applicable ([See guide](#tests-1)).
 
 ### Compliment & Mentoring
 
 It is sometimes more helpful to encourage and appreciate good coding practises than to point out errors. Code review gives developers the opportunity to learn new things from others; in the long run, developers sharing information with one another is part of enhancing a system's code health.
 
-### In Summary
-
-Make sure
-
-- Naming are clear and follow the naming convention.
-- Comments are clear, useful and explaining why instead of what.
-- The code isn’t more complex than it needs to be.
-- Code has well-designed unit tests.
-- TODO
-
 ## Best practices in code writing
+
+ESLint will check the code style of code in Visual Studio Code, fix warnings and errors that can not be automatically fixed on save.
 
 ### Clarity
 
 Follow consistent code style and naming conventions applicable to the language.
 
+Eslint
+
 - [How to write clean code](./Clean_Code.pdf)
 
-Some style guides:
+#### Some style guides based on coding languages:
 
-- [C# Style Guide](https://google.github.io/styleguide/csharp-style.html)
 - [HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
-- [JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 - [TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+- [JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+- [C# Style Guide](https://google.github.io/styleguide/csharp-style.html)
 
 ### Complexity
 
@@ -64,6 +70,12 @@ Good code is simple and efficient, easy to understand by code readers, and easy 
 It is recommended to write comments for code in clear, useful and understandable English.
 
 An useful comment explains why the code exists rather than what the code is doing (Unless it's a regular expression or a complex algorithm, in which case comments clarifying what they do are useful), such as the purpose of a piece of code, how it should be used, and how it behaves when used.
+
+### Tests
+
+Ensure the tests actually fail when the code is broken, and producing false positives if the code underlying them changes. Each test capable of producing straightforward and relevant assertions. Also tests should properly divided into distinct test methods.
+
+[Angular testing guide](https://angular.io/guide/testing)
 
 ### Reusability and Scalability
 
