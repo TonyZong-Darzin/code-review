@@ -51,7 +51,7 @@ If you navigate through `Compare & pull request` button, it should automatically
 
 Description accepts [Markdown syntax](https://www.markdownguide.org/basic-syntax/).
 
-The [PR template](./pull-request-template.md) will automatically apply to the description when the PR is created. Fill in the Task title, Solution description, and Checklist.
+The [PR template](./pull-request-template.md) will automatically apply to the description when the PR is created. Fill in the Task title, Solution description, and Checklist (You can do it after [submitting the PR](#4-submit-pr)).
 
 <img src="./images/pull-request-description.png" width="800px"/>
 
