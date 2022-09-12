@@ -16,18 +16,18 @@ You will be notified through email and Github that you can begin a review when s
 
 In PR page, click on `Add your review` button in message bo OR click on `Files changed`in tab bar.
 
-<img src="./images/add-review.png" width="800px"/>
+<img src="./images/add-review.png" width="700px"/>
 
 ### Add single comment or start a review
 
 You can start the review by adding inline comments in the files changed view
 of PR (Hover the beginning of the line and click the `+`), you can choose to leave single comments or start a review.
 
-<img src="./images/add-review-comment.png" width="650px"/>
+<img src="./images/add-review-comment.png" width="700px"/>
 
 When you start a review, all of the inline comments will be marked as `Pending`.
 
-<img src="./images/add-review-comment-pending.png" width="650px"/>
+<img src="./images/add-review-comment-pending.png" width="700px"/>
 
 ### Share a review
 
@@ -37,7 +37,9 @@ When you are ready to share the review, click the `Review changes` button and le
 
 ### Review again
 
-You can start reviewing it again when the Author made commits in response to your change request from the last review.
+You can start reviewing it again when the Author made commits in response to your change request from the last review. Click on `View changes` to start review new changes.
+
+<img src="./images/review-again.png" width="700px"/>
 
 ## What to look for in Code Review
 
