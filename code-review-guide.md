@@ -33,8 +33,6 @@ When you are ready to share the review, click the `Review changes` button and le
 
 <img src="./images/share-review.png" width="700px"/>
 
-TODO:
-
 [Video explanation on how to do code review on Github](https://www.youtube.com/watch?v=HW0RPaJqm4g)
 
 ### Review again
