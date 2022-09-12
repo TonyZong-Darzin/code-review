@@ -8,7 +8,9 @@ For junior developer, the code review process allows them to learn optimisation 
 
 ## How to review code in PR
 
-When someone request a review form you, you will receive an e-mail and Github notification that you can start the review there.
+You will be notified through email and Github that you can begin a review when someone requests a review from you.
+
+[How to do code review on Github (video)](https://www.youtube.com/watch?v=HW0RPaJqm4g)
 
 ### Start the reviewing
 
@@ -19,13 +21,13 @@ In PR page, click on `Add your review` button in message bo OR click on `Files c
 ### Add single comment or start a review
 
 You can start the review by adding inline comments in the files changed view
-of PR, you can choose to leave single comments or start a review.
+of PR (Hover the beginning of the line and click the `+`), you can choose to leave single comments or start a review.
 
-<img src="./images/add-review-comment.png" width="630px"/>
+<img src="./images/add-review-comment.png" width="650px"/>
 
-When you start a review, all of the inline comments will be marked as pending.
+When you start a review, all of the inline comments will be marked as `Pending`.
 
-<img src="./images/add-review-comment-pending.png" width="540px"/>
+<img src="./images/add-review-comment-pending.png" width="650px"/>
 
 ### Share a review
 
@@ -33,11 +35,9 @@ When you are ready to share the review, click the `Review changes` button and le
 
 <img src="./images/share-review.png" width="700px"/>
 
-[Video explanation on how to do code review on Github](https://www.youtube.com/watch?v=HW0RPaJqm4g)
-
 ### Review again
 
-TODO:
+You can start reviewing it again when the Author made commits in response to your change request from the last review.
 
 ## What to look for in Code Review
 
