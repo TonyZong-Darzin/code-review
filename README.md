@@ -67,7 +67,7 @@ Before submitting this PR, ensure that you have reviewed all of your changes, th
 
 Go to `Reviewers` and select users from the list to review your PR. Note that you must have at least one approving review in order to proceed merging the PR.
 
-<img src="./images/select-reviewer.png" width="820px"/>
+<img src="./images/select-reviewer.png" width="800px"/>
 
 ### 6. Resolve conflicts
 
@@ -89,9 +89,13 @@ Changes approved
 
 ### 8. Made changes based on code reviews
 
-<img src="./images/review-not-complete.png" width="800px"/>
+Make changes in response to the reviewer's changes request from the last review.
 
-TODO:
+<img src="./images/changes-request.png" width="800px"/>
+
+By making a commit to this branch, the pull request will automatically detect any fresh modifications and inform reviewers.
+
+<img src="./images/new-changes-made.png" width="800px"/>
 
 ### 9. Merge PR
 
