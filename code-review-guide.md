@@ -35,7 +35,7 @@ When you are ready to share the review, click the `Review changes` button and le
 
 <img src="./images/share-review.png" width="700px"/>
 
-### Review again
+### Review new changes
 
 You can start reviewing it again when the Author made commits in response to your change request from the last review. Click on `View changes` to start review new changes.
 
@@ -55,7 +55,7 @@ You can start reviewing it again when the Author made commits in response to you
 
 ### Code health
 
-Refer to [Best practices in code writing](#Best-practices-in-code-writing).
+Refer to [Best practices in code writing](#best-practices-in-code-writing).
 
 ### Readable?
 
@@ -106,7 +106,7 @@ Ensure the tests actually fail when the code is broken, and producing false posi
 
 ### Reusability and Scalability
 
-Avoid developing duplicated code for similar functions, instead developers should analyze the conditions and requirements, refactor the code into reuseable functions ([Complexity](#Complexity) also needs to be considered).
+Avoid developing duplicated code for similar functions, instead developers should analyze the conditions and requirements, refactor the code into reuseable functions ([Complexity](#complexity) also needs to be considered).
 
 Code should be easily extended and adapted as it won't be discarded when new requirements emerge.
 

@@ -93,7 +93,7 @@ Make changes in response to the reviewer's changes request from the last review.
 
 <img src="./images/changes-request.png" width="800px"/>
 
-By making a commit to this branch, the pull request will automatically detect any fresh modifications and inform reviewers.
+By making a commit to this branch, the PR will automatically detect any fresh modifications and inform reviewers.
 
 <img src="./images/new-changes-made.png" width="800px"/>
 
