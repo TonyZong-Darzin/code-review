@@ -1,6 +1,6 @@
 name: Asana task
 description: Start working on an Asana task
-title: <Asana task title>
+title: <replace with Asana task title>
 labels: ["bug", "triage"]
 body:
   - type: input
@@ -9,7 +9,7 @@ body:
       label: Asana task link
       description: Copy from Asana task page
       placeholder: |
-        ex. https://app.asana.com/...
+        Ex. https://app.asana.com/...
     validations:
       required: true
   - type: textarea
@@ -17,6 +17,6 @@ body:
     attributes:
       label: Description
       placeholder: |
-        A bug happened!
+        Add some descriptions...
     validations:
       required: false
