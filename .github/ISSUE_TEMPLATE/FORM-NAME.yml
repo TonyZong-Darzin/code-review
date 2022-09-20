@@ -2,7 +2,6 @@ name: Bug Report From Asana
 description: Start working on an Asana task
 title: Replace with Asana task title
 labels: ["bug", "triage"]
-assignees:
 body:
   - type: input
     id: asana-link
