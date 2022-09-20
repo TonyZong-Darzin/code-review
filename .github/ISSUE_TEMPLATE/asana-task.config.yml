@@ -17,6 +17,5 @@ body:
       label: Description
       placeholder: |
         Add some descriptions...
-      render: markdown
     validations:
       required: false
