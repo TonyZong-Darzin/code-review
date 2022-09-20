@@ -99,6 +99,6 @@ By making a commit to this branch, the PR will automatically detect any fresh mo
 
 ### 9. Merge PR
 
-Create a merge commit and merge PR.
+**Reviewer** should create a merge commit and merge PR.
 
 <img src="./images/mergePR.png" width="700px"/>

@@ -1,6 +1,8 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Bug Report From Asana
+description: Start working on an Asana task
+title:
+  label: Some title
+  description: Asana task title
 labels: ["bug", "triage"]
 assignees:
   - octocat
