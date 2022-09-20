@@ -8,24 +8,26 @@ For junior developer, the code review process allows them to learn optimisation 
 
 ## How to review code in PR
 
-When someone request a review form you, you will receive an e-mail and Github notification that you can start the review there.
+You will be notified through email and Github that you can begin a review when someone requests a review from you.
+
+[How to do code review on Github (video)](https://www.youtube.com/watch?v=HW0RPaJqm4g)
 
 ### Start the reviewing
 
 In PR page, click on `Add your review` button in message bo OR click on `Files changed`in tab bar.
 
-<img src="./images/add-review.png" width="800px"/>
+<img src="./images/add-review.png" width="700px"/>
 
 ### Add single comment or start a review
 
 You can start the review by adding inline comments in the files changed view
-of PR, you can choose to leave single comments or start a review.
+of PR (Hover the beginning of the line and click the `+`), you can choose to leave single comments or start a review.
 
-<img src="./images/add-review-comment.png" width="630px"/>
+<img src="./images/add-review-comment.png" width="700px"/>
 
-When you start a review, all of the inline comments will be marked as pending.
+When you start a review, all of the inline comments will be marked as `Pending`.
 
-<img src="./images/add-review-comment-pending.png" width="540px"/>
+<img src="./images/add-review-comment-pending.png" width="700px"/>
 
 ### Share a review
 
@@ -33,13 +35,11 @@ When you are ready to share the review, click the `Review changes` button and le
 
 <img src="./images/share-review.png" width="700px"/>
 
-TODO:
+### Review new changes
 
-[Video explanation on how to do code review on Github](https://www.youtube.com/watch?v=HW0RPaJqm4g)
+You can start reviewing it again when the Author made commits in response to your change request from the last review. Click on `View changes` to start review new changes.
 
-### Review again
-
-TODO:
+<img src="./images/review-again.png" width="700px"/>
 
 ## What to look for in Code Review
 
@@ -55,7 +55,7 @@ TODO:
 
 ### Code health
 
-Refer to [Best practices in code writing](#Best-practices-in-code-writing).
+Refer to [Best practices in code writing](#best-practices-in-code-writing).
 
 ### Readable?
 
@@ -106,7 +106,7 @@ Ensure the tests actually fail when the code is broken, and producing false posi
 
 ### Reusability and Scalability
 
-Avoid developing duplicated code for similar functions, instead developers should analyze the conditions and requirements, refactor the code into reuseable functions ([Complexity](#Complexity) also needs to be considered).
+Avoid developing duplicated code for similar functions, instead developers should analyze the conditions and requirements, refactor the code into reuseable functions ([Complexity](#complexity) also needs to be considered).
 
 Code should be easily extended and adapted as it won't be discarded when new requirements emerge.
 
