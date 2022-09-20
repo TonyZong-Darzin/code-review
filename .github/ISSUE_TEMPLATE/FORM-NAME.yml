@@ -1,6 +1,7 @@
 name: Bug Report From Asana
 description: Start working on an Asana task
-title: Replace with Asana task title
+title: |
+  Replace with Asana task title
 labels: ["bug", "triage"]
 body:
   - type: input
