@@ -97,7 +97,7 @@ By making a commit to this branch, the PR will automatically detect any fresh mo
 
 <img src="./images/new-changes-made.png" width="800px"/>
 
-### 9. Merge PR
+### 9. Merge PR !
 
 Create a merge commit and merge PR.
 
