@@ -1,7 +1,6 @@
 name: Asana task
 description: Start working on an Asana task
 title: <replace with Asana task title>
-labels: ["bug", "triage"]
 body:
   - type: input
     id: asana-link
