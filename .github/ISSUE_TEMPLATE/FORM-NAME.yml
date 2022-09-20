@@ -10,7 +10,7 @@ body:
       label: Asana task link
       description: Copy from Asana task page
       placeholder: |
-      ex. app.asana.com...
+        ex. https://app.asana.com/...
     validations:
       required: true
   - type: textarea
