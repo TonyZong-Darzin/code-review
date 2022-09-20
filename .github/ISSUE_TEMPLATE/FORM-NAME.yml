@@ -1,11 +1,8 @@
 name: Bug Report From Asana
 description: Start working on an Asana task
-title:
-  label: Some title
-  description: Asana task title
+title: Replace with Asana task title
 labels: ["bug", "triage"]
 assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
