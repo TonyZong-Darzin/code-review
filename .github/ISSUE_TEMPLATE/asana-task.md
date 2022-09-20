@@ -7,10 +7,10 @@ assignees: ''
 
 ---
 
-## Asana task link \*
+## Asana task link 
 
 <replace with the Asana link>
 
 ## Description
 
-Add some descriptions...
+<replace with the description>
